@@ -1,0 +1,20 @@
+import javax.jws.WebMethod;
+import javax.jws.WebParam;
+import  javax.jws.WebService;
+
+@WebService(targetNamespace = "http://www.polytech.fr")
+public class MonServiceWeb {
+
+    @WebMethod(operationName = "Convertir")
+    public double conversion(double mt){
+        return mt*0.9;
+    }
+
+    public double somme(@WebParam(name = "param1") double a, @WebParam(name = "param2") double b){
+        return a+b;
+    }
+
+    public Etudiant getEtudiant(int identifiant){
+        return new Etudiant(1, "Mario", 19);
+    }
+}

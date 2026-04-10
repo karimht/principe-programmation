@@ -1,0 +1,8 @@
+// SOAP : Simple Object Access Protocol
+// JAX-WS (Java Annotation XML for Web Services)
+// JAXB (Java Architecture XML Building )
+
+// URL : Uniforme Resource Locator
+// URN : Uniforme Resource Name
+// URI : Uniforme Resource Identifier
+// URN + URL = URI
