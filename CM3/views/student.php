@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title> Liste des etudiants </title>
+    <link rel="stylesheet" href = "assets/style.css">
+</head>
+<body>
+    <h1> Liste des etudiants </h1>
+<ul>
+    <li>
+        <?= $student['prenom'] ?> (<?= $student['age'] ?> ans )
+    </li>
+</ul>
+</body>
+</html>
