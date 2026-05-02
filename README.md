@@ -158,7 +158,7 @@ docker run -p 5000:5000 mon-app
 
 ---
 
-### ▶️ CM1 (Flask + MySQL)
+### CM1 (Flask + MySQL)
 
 **Prérequis :**
 - Python 3 installé
@@ -202,6 +202,6 @@ curl -X DELETE http://localhost:5001/students/5
 
 ---
 
-## 👤 Auteur
+## Auteur
 
 Karim MAHTOUT — Master 1 Informatique
